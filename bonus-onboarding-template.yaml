@@ -1,14 +1,14 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: bonus-onboarding-lab-yournamehere
+  name: bonus-onboarding-lab-agfarrugia
   title: Create a cookicutter datascience app
   description: A template to create a new cookiecutter datascience app
   actionButton:
     text: Select
   tags:
     - workshop
-    - yournamehere
+    - agfarrugia
 spec:
   owner: platformteam
   type: service
@@ -46,7 +46,7 @@ spec:
   steps:
     - id: trigger
       name: Creating your data science project
-      action: trigger:harness-custom-pipeline
+      action: https://workshop.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/module/idp-admin/orgs/pexaidp283org/projects/andrewpexaidp2830/pipelines/New_Service_Onboading/pipeline-studio/?storeType=INLINE
       input:
         url: "<input onboarding pipeline URL>"
         inputset:
