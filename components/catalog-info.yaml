@@ -40,7 +40,7 @@ metadata:
     - agfarrugia
 spec:
   type: service
-  owner: agfarrugia
+  owner: PEXA
   lifecycle: experimental
   consumesApis:
     - spotify
